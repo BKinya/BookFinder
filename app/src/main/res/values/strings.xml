@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BookFinder</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="find_book_connect_with_books">Find Books, Connect with Books</string>
+    <string name="what_s_your_name">What\'s your name?</string>
 </resources>
