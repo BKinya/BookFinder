@@ -5,4 +5,8 @@
     <string name="next">Next</string>
     <string name="find_book_connect_with_books">Find Books, Connect with Books</string>
     <string name="what_s_your_name">What\'s your name?</string>
+    <string name="profile">Profile</string>
+    <string name="downloads">Downloads</string>
+    <string name="home">Home</string>
+    <string name="name">Name</string>
 </resources>

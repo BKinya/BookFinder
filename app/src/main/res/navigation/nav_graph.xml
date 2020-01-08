@@ -17,5 +17,22 @@
         android:id="@+id/loginFragment"
         android:name="com.beatrice.bookfinder.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.beatrice.bookfinder.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
 </navigation>

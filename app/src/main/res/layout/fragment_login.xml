@@ -24,22 +24,18 @@
         android:layout_marginStart="@dimen/activity_margin"
         android:layout_marginEnd="@dimen/activity_margin"
         />
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/username_textinputlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="@dimen/activity_margin"
-        android:layout_marginEnd="@dimen/activity_margin">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/username_edittxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name"
+            android:hint="@string/name"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginEnd="@dimen/activity_margin"
             android:padding="@dimen/text_padding"
             android:inputType="text"/>
-    </com.google.android.material.textfield.TextInputLayout>
+
 
 
     <Button
