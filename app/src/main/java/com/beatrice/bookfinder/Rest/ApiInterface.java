@@ -7,10 +7,9 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface ApiInterface {
-    @GET
+    @GET(".")
     Call<BookSearchResponse> getBooks(
             @Query("q") String queryString,
-            @Query("key") String apiKey,
-            @Query("orderby") String orderBy
+            @Query("key") String apiKey
     );
 }
