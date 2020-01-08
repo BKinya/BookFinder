@@ -33,7 +33,11 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
 
-    implementation "androidx.fragment:fragment:1.2.0-beta02"
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.7.1'
+
+    //GSON converter
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
 
 
 }
