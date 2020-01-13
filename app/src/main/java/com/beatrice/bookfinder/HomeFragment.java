@@ -40,7 +40,7 @@ public class HomeFragment extends Fragment {
         bookSearchViewModel.getBookSearchResponse().observe(getViewLifecycleOwner(), new Observer<BookSearchResponse>() {
             @Override
             public void onChanged(BookSearchResponse bookSearchResponse) {
-                Log.e("REEESPONSE", String.valueOf(bookSearchResponse.getItems().size()));
+                //Log.e("REEESPONSE", String.valueOf(bookSearchResponse.getItems().size()));
             }
         });
 

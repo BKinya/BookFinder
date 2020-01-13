@@ -1,5 +1,7 @@
 package com.beatrice.bookfinder.Repository;
 
+import android.util.Log;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
@@ -30,6 +32,7 @@ public class BookSearchRepository {
         call.enqueue(new Callback<BookSearchResponse>() {
             @Override
             public void onResponse(Call<BookSearchResponse> call, Response<BookSearchResponse> response) {
+                //Log.e("Response", response.body().toString());
                 if (response.isSuccessful()){
                     bookSearchResponses.setValue(response.body());
                 }{
